@@ -24,7 +24,7 @@ function fastifyMongoose (fastify, options, next) {
     useUnifiedTopology: true
   }
 
-  mongoose.createConnection(uri, opt)
+  mongoose.connect(uri, opt)
     .then(db => {
       db.on('error', err => {
         fastify.log.error(err, 'Mongoose connection error')
