@@ -1,6 +1,6 @@
 {
   "name": "fastify-mongoose",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Fastify Mongoose connection plugin",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Techie-Qabila/fastify-mongoose.git"
+    "url": "git@github.com:atombarel/fastify-mongoose.git"
   },
   "keywords": [
     "fastify",
@@ -20,20 +20,19 @@
     "database",
     "connection"
   ],
-  "author": "Muhammad Ahmed <mahmed8003@gmail.com>",
+  "author": "Andrea TOMBAREL <andrea.tombarel@me.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Techie-Qabila/fastify-mongoose/issues"
+    "url": "https://github.com/atombarel/fastify-mongoose/issues"
   },
-  "homepage": "https://github.com/Techie-Qabila/fastify-mongoose#readme",
+  "homepage": "https://github.com/atombarel/fastify-mongoose#readme",
   "devDependencies": {
-    "fastify": "^2.11.0",
-    "standard": "^14.3.1",
+    "fastify": "^3.21.6",
     "tap": "^14.10.2"
   },
   "dependencies": {
-    "fastify-plugin": "^1.6.0",
-    "mongoose": "^5.7.14"
+    "fastify-plugin": "^3.0.0",
+    "mongoose": "^6.0.7"
   },
   "engines": {
     "node": ">=8.5.0"
