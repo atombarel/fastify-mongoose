@@ -18,7 +18,6 @@ function fastifyMongoose (fastify, options, next) {
   }
 
   const opt = {
-    useCreateIndex: true,
     ...options,
     useNewUrlParser: true,
     useUnifiedTopology: true
