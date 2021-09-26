@@ -26,12 +26,12 @@ function fastifyMongoose (fastify, options, next) {
 
   mongoose.connect(uri, opt)
     .then(db => {
-      db.on('error', err => {
+      mongoose.connection.on('error', err => {
         fastify.log.error(err, 'Mongoose connection error')
       })
 
       fastify.addHook('onClose', function (fastify, done) {
-        db.close(done)
+        mongoose.connection.close(done)
       })
 
       const mongo = {
