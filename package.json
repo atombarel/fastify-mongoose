@@ -28,7 +28,7 @@
   "homepage": "https://github.com/atombarel/fastify-mongoose#readme",
   "devDependencies": {
     "fastify": "^3.21.6",
-    "tap": "^14.10.2"
+    "tap": "^15.1.5"
   },
   "dependencies": {
     "fastify-plugin": "^3.0.0",
