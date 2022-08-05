@@ -6,7 +6,7 @@ Under the hood [mongoose](http://mongoosejs.com/index.html) ODM is used, the opt
 
 ## Install
 ```
-npm i fastify-mongoose --save
+npm i fastify-mongoose2 --save
 ```
 ## Usage
 Add it to you project with `register` and you are done!
